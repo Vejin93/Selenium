@@ -16,7 +16,7 @@ public class main {
         driver.manage().window().maximize();
 
         //Search box
-        driver.findElement(By.id("ctl04_ctl07_txtName")).sendKeys("T-shirts");
+        driver.findElement(By.name("ctl04$ctl07$txtName")).sendKeys("T-shirts");
 
         //Search button
         driver.findElement(By.id("ctl04_ctl07_btnSearch")).click();
