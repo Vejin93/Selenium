@@ -16,11 +16,15 @@ public class main {
         driver.manage().window().maximize();
 
         //Search box
-        driver.findElement(By.name("ctl04$ctl07$txtName")).sendKeys("T-shirts");
+        driver.findElement(By.name("ctl04$ctl07$txtName")).sendKeys("majica");
 
         //Search button
         driver.findElement(By.id("ctl04_ctl07_btnSearch")).click();
 
+        //Link text & partial link text
+//        driver.findElement(By.linkText("ZIMA")).click();
+        driver.findElement(By.partialLinkText("IMA")).click();
 
+        driver.close();
     }
 }
