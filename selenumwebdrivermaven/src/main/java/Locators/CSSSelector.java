@@ -13,18 +13,21 @@ public class CSSSelector {
         driver.manage().window().maximize();
 
         //CSS with tag & id
-        //driver.findElement(By.cssSelector("input#small-searchterms")).sendKeys("MacBook");
+        //driver.findElement(By.cssSelector("input#small-searchterms")).sendKeys("Id");
         //CSS with id
-        //driver.findElement(By.cssSelector("#small-searchterms")).sendKeys("MacBook");
+        //driver.findElement(By.cssSelector("#small-searchterms")).sendKeys("Id");
 
         //CSS Tag & class
-        //driver.findElement(By.cssSelector("input.search-box-text")).sendKeys("Test");
+        //driver.findElement(By.cssSelector("input.search-box-text")).sendKeys("Class");
         //CSS class
-        //driver.findElement(By.cssSelector(".search-box-text")).sendKeys("Test");
+        //driver.findElement(By.cssSelector(".search-box-text")).sendKeys("Class");
 
         //CSS Tag & attribute
         //driver.findElement(By.cssSelector("input[type='text']")).sendKeys("Attribute");
         //CSS attribute
-        driver.findElement(By.cssSelector("[type='text']")).sendKeys("Attribute");
+        //driver.findElement(By.cssSelector("[type='text']")).sendKeys("Attribute");
+
+        //CSS Tag, class & attribute
+        driver.findElement(By.cssSelector("input.search-box-text[type='text']")).sendKeys("Class&Attribute");
     }
 }
