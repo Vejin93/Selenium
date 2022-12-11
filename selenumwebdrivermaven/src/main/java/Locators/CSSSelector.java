@@ -13,10 +13,13 @@ public class CSSSelector {
         driver.manage().window().maximize();
 
         //CSS with tag & id
-        driver.findElement(By.cssSelector("input#small-searchterms")).sendKeys("MacBook");
+        //driver.findElement(By.cssSelector("input#small-searchterms")).sendKeys("MacBook");
         //CSS with id
-        driver.findElement(By.cssSelector("#small-searchterms")).sendKeys("MacBook");
+        //driver.findElement(By.cssSelector("#small-searchterms")).sendKeys("MacBook");
 
-
+        //CSS Tag & class
+        //driver.findElement(By.cssSelector("input.search-box-text")).sendKeys("Test");
+        //CSS class
+        driver.findElement(By.cssSelector(".search-box-text")).sendKeys("Test");
     }
 }
