@@ -13,6 +13,7 @@ public class XPath {
         driver.get("https://demo.opencart.com/");
         driver.manage().window().maximize();
 
-        driver.findElement(By.xpath())
+        String textOfElement = driver.findElement(By.xpath("//a[text()='MacBook']")).getText();
+        System.out.println(textOfElement);
     }
 }
