@@ -20,6 +20,11 @@ public class CSSSelector {
         //CSS Tag & class
         //driver.findElement(By.cssSelector("input.search-box-text")).sendKeys("Test");
         //CSS class
-        driver.findElement(By.cssSelector(".search-box-text")).sendKeys("Test");
+        //driver.findElement(By.cssSelector(".search-box-text")).sendKeys("Test");
+
+        //CSS Tag & attribute
+        //driver.findElement(By.cssSelector("input[type='text']")).sendKeys("Attribute");
+        //CSS attribute
+        driver.findElement(By.cssSelector("[type='text']")).sendKeys("Attribute");
     }
 }
