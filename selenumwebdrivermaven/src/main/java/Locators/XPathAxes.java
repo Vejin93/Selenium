@@ -2,7 +2,10 @@ package Locators;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+
+import java.util.List;
 
 public class XPathAxes {
     public static void main(String[] args) throws InterruptedException {
@@ -19,5 +22,9 @@ public class XPathAxes {
         //Parent - Selects the parent of the current node (always one)
         text = driver.findElement(By.xpath("//a[contains(text(),'NIIT Ltd')]/parent::td")).getText();
         System.out.println("Parent : " + text);
+
+        //Child - Selects all children of the current node (One or many)
+        List<WebElement> childs = driver.findElements(By.xpath("//a[contains(text(),'NIIT Ltd')]/ancestor::tr/child::td"));
+        System.out.println("Number of child elements:" + childs.size());
     }
 }
