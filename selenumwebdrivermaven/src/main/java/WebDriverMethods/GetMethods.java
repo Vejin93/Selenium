@@ -38,6 +38,6 @@ public class GetMethods {
         for (String s: windowIDs) {
             System.out.println(s);
         }
-        
+
     }
 }
