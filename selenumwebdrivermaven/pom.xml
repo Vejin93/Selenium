@@ -17,7 +17,8 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>4.7.1</version>
+          <!--  <version>4.7.1</version> -->
+            <version>4.7.2</version> <!-- Add later because new version -->
         </dependency>
 
     <!-- Because we use selenium-java 4.6.0 version, we don't have to has WebDriverManager
@@ -35,7 +36,7 @@
         </dependency>
 
     -->
-
+        
     </dependencies>
 
 </project>
