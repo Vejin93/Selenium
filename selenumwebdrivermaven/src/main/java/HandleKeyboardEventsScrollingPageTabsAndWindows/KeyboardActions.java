@@ -30,7 +30,7 @@ public class KeyboardActions {
 
         // tab
         //act.keyDown(Keys.TAB).keyUp(Keys.TAB);
-        act.sendKeys(Keys.TAB).perform();
+        act.sendKeys(Keys.TAB).perform(); // only if want or press single key then prefer this
 
         // ctrl + v
         act.keyDown(Keys.CONTROL).sendKeys("v").keyUp(Keys.CONTROL).perform();
