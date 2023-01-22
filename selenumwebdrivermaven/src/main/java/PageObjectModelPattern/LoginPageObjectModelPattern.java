@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class LoginPageObjectModelPattern {
 
-    WebDriver driver;
+    public WebDriver driver;
 
     // locators
     By imageLogoLocator = By.xpath("//img[@alt='company-branding']");
