@@ -1,37 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-24T12:28:49 CET" name="All Test Suite" finished-at="2023-01-24T12:28:49 CET" duration-ms="99">
+  <suite started-at="2023-01-24T13:12:48 CET" name="All Test Suite" finished-at="2023-01-24T13:12:48 CET" duration-ms="219">
     <groups>
     </groups>
-    <test started-at="2023-01-24T12:28:49 CET" name="C:/Users/Vladimir/Desktop/New folder (3)/Selenium/selenumwebdrivermaven/src/main/java/TestNG/Annotations.java" finished-at="2023-01-24T12:28:49 CET" duration-ms="99">
-      <class name="TestNG.AnnotationsBeforeAfterMerthods">
-        <test-method is-config="true" signature="login()[pri:0, instance:TestNG.Annotations@29176cc1]" started-at="2023-01-24T12:28:49 CET" name="login" finished-at="2023-01-24T12:28:49 CET" duration-ms="15" status="PASS">
+    <test started-at="2023-01-24T13:12:48 CET" name="Test1" finished-at="2023-01-24T13:12:48 CET" duration-ms="115">
+      <class name="TestNG.pack1.Class2">
+        <test-method signature="xyz()[pri:0, instance:TestNG.pack1.Class2@48fa0f47]" started-at="2023-01-24T13:12:48 CET" name="xyz" finished-at="2023-01-24T13:12:48 CET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="search()[pri:1, instance:TestNG.Annotations@29176cc1]" started-at="2023-01-24T12:28:49 CET" name="search" finished-at="2023-01-24T12:28:49 CET" duration-ms="2" status="PASS">
+        </test-method> <!-- xyz -->
+        <test-method is-config="true" signature="n()[pri:0, instance:TestNG.pack1.Class2@48fa0f47]" started-at="2023-01-24T13:12:48 CET" name="n" finished-at="2023-01-24T13:12:48 CET" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- search -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:TestNG.Annotations@29176cc1]" started-at="2023-01-24T12:28:49 CET" name="logout" finished-at="2023-01-24T12:28:49 CET" duration-ms="1" status="PASS">
+        </test-method> <!-- n -->
+      </class> <!-- TestNG.pack1.Class2 -->
+      <class name="TestNG.pack1.Class1">
+        <test-method is-config="true" signature="m()[pri:0, instance:TestNG.pack1.Class1@159f197]" started-at="2023-01-24T13:12:48 CET" name="m" finished-at="2023-01-24T13:12:48 CET" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="login()[pri:0, instance:TestNG.Annotations@29176cc1]" started-at="2023-01-24T12:28:49 CET" name="login" finished-at="2023-01-24T12:28:49 CET" duration-ms="1" status="PASS">
+        </test-method> <!-- m -->
+        <test-method signature="abc()[pri:0, instance:TestNG.pack1.Class1@159f197]" started-at="2023-01-24T13:12:48 CET" name="abc" finished-at="2023-01-24T13:12:48 CET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="advancedSearch()[pri:2, instance:TestNG.Annotations@29176cc1]" started-at="2023-01-24T12:28:49 CET" name="advancedSearch" finished-at="2023-01-24T12:28:49 CET" duration-ms="3" status="PASS">
+        </test-method> <!-- abc -->
+      </class> <!-- TestNG.pack1.Class1 -->
+    </test> <!-- Test1 -->
+    <test started-at="2023-01-24T13:12:48 CET" name="Test2" finished-at="2023-01-24T13:12:48 CET" duration-ms="11">
+      <class name="TestNG.pack1.Class2">
+        <test-method signature="xyz()[pri:0, instance:TestNG.pack1.Class2@69b2283a]" started-at="2023-01-24T13:12:48 CET" name="xyz" finished-at="2023-01-24T13:12:48 CET" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- advancedSearch -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:TestNG.Annotations@29176cc1]" started-at="2023-01-24T12:28:49 CET" name="logout" finished-at="2023-01-24T12:28:49 CET" duration-ms="2" status="PASS">
+        </test-method> <!-- xyz -->
+        <test-method is-config="true" signature="n()[pri:0, instance:TestNG.pack1.Class2@69b2283a]" started-at="2023-01-24T13:12:48 CET" name="n" finished-at="2023-01-24T13:12:48 CET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logout -->
-      </class> <!-- TestNG.AnnotationsBeforeAfterMerthods -->
-    </test> <!-- C:/Users/Vladimir/Desktop/New folder (3)/Selenium/selenumwebdrivermaven/src/main/java/TestNG/Annotations.java -->
+        </test-method> <!-- n -->
+      </class> <!-- TestNG.pack1.Class2 -->
+      <class name="TestNG.pack1.Class1">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:TestNG.pack1.Class1@bef2d72]" started-at="2023-01-24T13:12:48 CET" name="beforeSuite" finished-at="2023-01-24T13:12:48 CET" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="m()[pri:0, instance:TestNG.pack1.Class1@bef2d72]" started-at="2023-01-24T13:12:48 CET" name="m" finished-at="2023-01-24T13:12:48 CET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m -->
+        <test-method signature="abc()[pri:0, instance:TestNG.pack1.Class1@bef2d72]" started-at="2023-01-24T13:12:48 CET" name="abc" finished-at="2023-01-24T13:12:48 CET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abc -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:TestNG.pack1.Class1@bef2d72]" started-at="2023-01-24T13:12:48 CET" name="afterSuite" finished-at="2023-01-24T13:12:48 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- TestNG.pack1.Class1 -->
+    </test> <!-- Test2 -->
   </suite> <!-- All Test Suite -->
 </testng-results>
