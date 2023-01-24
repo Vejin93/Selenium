@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/Vladimir/Desktop/New folder (3)/Selenium/selenumwebdrivermaven/src/main/java/TestNG/AnnotationsBeforeAfterMerthods.java"><classes><class name="TestNG.AnnotationsBeforeAfterMerthods"><methods><include name="search"/><include name="advancedSearch"/></methods></class></classes></test></suite>

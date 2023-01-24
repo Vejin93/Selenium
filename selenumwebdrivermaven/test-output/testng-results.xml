@@ -6,7 +6,7 @@
     <groups>
     </groups>
     <test started-at="2023-01-24T12:28:49 CET" name="C:/Users/Vladimir/Desktop/New folder (3)/Selenium/selenumwebdrivermaven/src/main/java/TestNG/Annotations.java" finished-at="2023-01-24T12:28:49 CET" duration-ms="99">
-      <class name="TestNG.Annotations">
+      <class name="TestNG.AnnotationsBeforeAfterMerthods">
         <test-method is-config="true" signature="login()[pri:0, instance:TestNG.Annotations@29176cc1]" started-at="2023-01-24T12:28:49 CET" name="login" finished-at="2023-01-24T12:28:49 CET" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
@@ -31,7 +31,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-      </class> <!-- TestNG.Annotations -->
+      </class> <!-- TestNG.AnnotationsBeforeAfterMerthods -->
     </test> <!-- C:/Users/Vladimir/Desktop/New folder (3)/Selenium/selenumwebdrivermaven/src/main/java/TestNG/Annotations.java -->
   </suite> <!-- All Test Suite -->
 </testng-results>

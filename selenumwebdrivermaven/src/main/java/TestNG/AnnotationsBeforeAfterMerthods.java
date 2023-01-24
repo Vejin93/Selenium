@@ -3,7 +3,7 @@ package TestNG;
 
 import org.testng.annotations.*;
 
-public class Annotations {
+public class AnnotationsBeforeAfterMerthods {
 
     @BeforeMethod
     void login()
