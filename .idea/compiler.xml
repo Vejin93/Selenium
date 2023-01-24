@@ -10,7 +10,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+<<<<<<< HEAD
       <module name="selenumwebdrivermaven" target="1.8" />
+=======
+      <module name="selenumwebdrivermaven" target="8" />
+>>>>>>> 949900e83c09850b8e84ac06a934f13f9c9cc0c9
     </bytecodeTargetLevel>
   </component>
 </project>
