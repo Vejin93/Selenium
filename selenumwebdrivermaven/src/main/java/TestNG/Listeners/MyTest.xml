@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    
+    <listeners>
+        <listener class-name="TestNG.Listeners.MyListener"></listener>
+    </listeners>
+    
+    <test thread-count="5"
+          name="C:/Users/Sladja/Desktop/seleniumwebdriver/selenumwebdrivermaven/src/main/java/TestNG/Listeners/MyTest.java">
+        <classes>
+            <class name="TestNG.Listeners.MyTest"/>
+        </classes>
+    </test>
+</suite>
